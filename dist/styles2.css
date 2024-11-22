@@ -1,6 +1,6 @@
 #intro {
 	background: #a8324e;
-  height: 780px;
+  height: 850px;
   margin-bottom: 200px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 #venue {
-	background: #d1a821;
+	background: #2D7523;
   height: 950px;
 }
 
@@ -34,24 +34,24 @@ header {
   min-height: 100px;
   border: 1px solid transparent;
 	font-size: 32px;
-  color: #d1a821;
+  color: white;
   vertical-align: middle;
 }
 
 span {
   font-size: 24px;
   font-family: Fraunces;
-  color: #d1a821;
+  color: white;
 }
 
 label {
   font-size: 24px;
   font-family: Fraunces;
-  color: #d1a821;
+  color: white;
 }
 
 .light-font {
-	color: #a8324e;
+	color: white;
 }
 
 .strong {
@@ -66,15 +66,19 @@ label {
   font-size: 20px;
   font-family: Fraunces;
   font-weight: lighter;
-  color: #d1a821;
+  color: white;
   margin: 10px 10px; 
+}
+
+.rsvp-title {
+  color: #2D7523;
 }
 
 .rsvp-text {
   font-size: 20px;
   font-family: Fraunces;
   font-weight: lighter;
-  color: #d1a821;
+  color: #2D7523;
   margin: 10px 10px; 
 }
 
@@ -85,32 +89,35 @@ label {
 h1 {
   font-size: 72px;
   font-family: Fraunces;
-  color: #d1a821;
+  color: white;
 }
 
 h2 {
   font-size: 40px;
   font-family: Fraunces; 
   font-weight: lighter;
-  color: #d1a821;
+  color: white;
 }
 
 .schedule-header {
   font-size: 32px;
   font-family: Fraunces; 
   font-weight: lighter;
+  color: #2D7523;
 }
 
 .schedule-time {
   font-size: 48px;
   font-family: Fraunces; 
   font-weight: bolder;
+  color: #2D7523;
 }
 
 .schedule-location {
   font-size: 30px;
   font-family: Fraunces; 
   font-weight: lighter;
+  color: #2D7523;
 }
 
 header div {
@@ -127,7 +134,7 @@ header div {
 .button {
   border: none;
   padding: 10px 20px;
-  color: #d1a821;
+  color: #2D7523;
   background-color: white;
   text-align: center;
   text-decoration: none;
@@ -139,21 +146,21 @@ header div {
 
 .button2 {
   color: white;
-  background-color: #d1a821;
+  background-color: #2D7523;
 }
 
 .button1 {
-  color: #d1a821;
+  color: #2D7523;
   background-color: white;
 }
 
 .button1:hover {
   color: white;
-  background-color: #d1a821;
+  background-color: #2D7523;
 }
 
 .button2:hover {
-  color: #d1a821;
+  color: #2D7523;
   background-color: white;
 }
 
