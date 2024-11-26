@@ -181,7 +181,7 @@ header div {
   z-index: 999;
 }
 
-img#us {
+.img-us {
   position: absolute;
   border-radius: 300px 300px 0 0;
   margin-left: auto;
@@ -190,6 +190,20 @@ img#us {
   right: 0;
   text-align: center;
   top: 150px;
+}
+
+.img-us-l {
+  width: 600px;
+}
+
+.img-us-s {
+  width: 100%;
+}
+
+#invite-you {
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
 }
 
 .schedule {
@@ -247,6 +261,10 @@ input.faq-toggle[type='checkbox'] + .faq-label + .faq-content {
 }
 
 @media only screen and (min-width: 600px) {
+  .s-only {
+    display: none;
+  }
+
   .col.l1 {
     flex: 0 0 8.33333%;
     max-width: 8.33333%;
