@@ -16,32 +16,34 @@
     <title>Matt 💒 Nilam</title>
 		<body>
       <header>
-        <div>M &amp; N</div>
-        <div class="right">
-          <a href="#schedule"><button class="button button1">When</button></a>
-          <a href="#venue"><button class="button button1">Where</button></a>
-          <a href="#rsvp"><button class="button button2">RSVP</button></a>
+        <div class="row">
+          <div class="col l2 left"><span class="mandn">M &amp; N</span></div>
+          <div class="col l10 right">
+            <a href="#schedule"><button class="button button1">When</button></a>
+            <a href="#venue"><button class="button button1">Where</button></a>
+            <a href="#rsvp"><button class="button button2">RSVP</button></a>
+          </div>
         </div>
       </header>
       <main>
 
         <section id="intro">
           <div class="row">
-            <div class="col s2">
+            <div class="col l2 l-only">
               <div class="when-where">
                 <span class="strong">When:</span>
                 </br>
                 <span class="light">Saturday</br>28 June 2025</span>
               </div>
             </div>
-            <div class="col s8">
+            <div class="col l8 s12">
               <div class="image-wrapper">
                 <h1>Matt and Nilam</h1>
                 <h2>Invite you to celebrate their wedding</h2>
-                <img class="us" width="600" src="dist/imgs/us2.jpg">
+                <img id="us" class="l-only" width="600" src="dist/imgs/us2.jpg">
               </div>
             </div>
-            <div class="col s2">
+            <div class="col l2 l-only">
               <div class="when-where">
                 <span class="strong">Where:</span>
                 </br>
@@ -57,11 +59,11 @@
         
         <section id="schedule">
           <div class="schedule row">
-            <div class="col s3 offset-s2">
+            <div class="col l2 offset-l1 s12">
               <span class="schedule-header">Arrive</span></br>
               <span class="schedule-time">12:30pm</span></br>
             </div>
-            <div class="col s1">
+            <div class="col l1 l-only">
               <div class="star-icon">
                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 323.295 323.296" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 323.295 323.296" role="presentation" aria-hidden="true">
                   <g>
@@ -70,7 +72,7 @@
                 </svg>
               </div>
             </div>
-            <div class="col s3 offset-s1">
+            <div class="col l2 offset-l1 s12">
               <span class="schedule-header">Ceremony</span></br>
               <span class="schedule-time">13:00pm</span></br>
             </div>
@@ -79,7 +81,7 @@
 
         <section id="venue">
           <div class="row">
-            <div class="col s8 offset-s2">
+            <div class="col l8 offset-l2">
               <div class="centre">
                 <h1 class="light-font">Venue</h1>
                 <h2 class="light-font">Hindu Temple Newcastle<br />172 West Road, Newcastle<br />NE4 9QB</h2>
@@ -91,20 +93,20 @@
 
         <section id="faq">
           <div class="row">
-            <div class="col s4 offset-s1">
+            <div class="col l4 offset-l1">
               <h2>FAQs</h2>
             </div>
           </div>
           <div class="faq-q">
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
                 <input id="faq1" class="faq-toggle" type="checkbox">
                 <label for="faq1" class="faq-label">
                   <div class="row">
-                    <div class="col s11">
+                    <div class="col l11 s10">
                       What is happening on the day?
                     </div>
-                    <div class="col s1">
+                    <div class="col l1">
                       <div class="faq-toggle-icon">
                         <img src="dist/imgs/faq-toggle-down.svg" width="36">
                       </div>
@@ -117,7 +119,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
               <hr />
               </div>
             </div>
@@ -125,14 +127,14 @@
 
           <div class="faq-q">
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
                 <input id="faq2" class="faq-toggle" type="checkbox">
                 <label for="faq2" class="faq-label">
                   <div class="row">
-                    <div class="col s11">
+                    <div class="col l11 s10">
                       What is the dress code?
                     </div>
-                    <div class="col s1">
+                    <div class="col l1">
                       <div class="faq-toggle-icon">
                         <img src="dist/imgs/faq-toggle-down.svg" width="36">
                       </div>
@@ -150,7 +152,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
               <hr />
               </div>
             </div>
@@ -158,14 +160,14 @@
 
           <div class="faq-q">
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
                 <input id="faq3" class="faq-toggle" type="checkbox">
                 <label for="faq3" class="faq-label">
                   <div class="row">
-                    <div class="col s11">
+                    <div class="col l11 s10">
                       When is the RSVP deadline?
                     </div>
-                    <div class="col s1">
+                    <div class="col l1">
                       <div class="faq-toggle-icon">
                         <img src="dist/imgs/faq-toggle-down.svg" width="36">
                       </div>
@@ -178,7 +180,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
               <hr />
               </div>
             </div>
@@ -186,14 +188,14 @@
 
           <div class="faq-q">
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
                 <input id="faq4" class="faq-toggle" type="checkbox">
                 <label for="faq4" class="faq-label">
                   <div class="row">
-                    <div class="col s11">
+                    <div class="col l11 s10">
                       Where can we stay?
                     </div>
-                    <div class="col s1">
+                    <div class="col l1">
                       <div class="faq-toggle-icon">
                         <img src="dist/imgs/faq-toggle-down.svg" width="36">
                       </div>
@@ -211,7 +213,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
               <hr />
               </div>
             </div>
@@ -220,14 +222,14 @@
 
           <div class="faq-q">
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
                 <input id="faq5" class="faq-toggle" type="checkbox">
                 <label for="faq5" class="faq-label">
                   <div class="row">
-                    <div class="col s11">
+                    <div class="col l11 s10">
                       How to get to the venue?
                     </div>
-                    <div class="col s1">
+                    <div class="col l1">
                       <div class="faq-toggle-icon">
                         <img src="dist/imgs/faq-toggle-down.svg" width="36">
                       </div>
@@ -240,7 +242,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s9 offset-s1">
+              <div class="col l9 offset-l1">
               <hr />
               </div>
             </div>
@@ -250,14 +252,14 @@
 
         <section id="rsvp">
           <div class="row">
-            <div class="col s6 offset-s3">
+            <div class="col l6 offset-l3">
               <div class="centre">
                 <h1 class="rsvp-title">RSVP</h1>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col s6 offset-s3">
+            <div class="col l6 offset-l3">
               <div class="centre">
                 <span class="rsvp-text">
                   Please let us know that you plan to intend by 31st January 2025<br/><br/>
@@ -272,7 +274,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col s6 offset-s3">
+            <div class="col l6 offset-l3">
               <div class="centre rsvp-links">
                 <a href="mailto:mattalexanderhill@gmail.com">
                   <button class="button button2">Email Us</button>
