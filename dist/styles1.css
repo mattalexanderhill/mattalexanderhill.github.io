@@ -1,4 +1,9 @@
+body {
+  margin: 0;
+}
+
 #intro {
+  position: relative;
 	background: #f9e8f9;
   height: 780px;
   margin-bottom: 200px;}
@@ -189,7 +194,7 @@ header div {
   left: 0;
   right: 0;
   text-align: center;
-  top: 150px;
+  top: 50px;
 }
 
 .img-us-l {
@@ -202,7 +207,7 @@ header div {
 
 #invite-you {
   position: absolute;
-  bottom: 3rem;
+  bottom: 2rem;
   text-align: center;
 }
 
