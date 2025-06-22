@@ -1,6 +1,8 @@
-
-body {
+html, body {
   margin: 0;
+  overflow-x: hidden;
+  width: 100%
+  font-family: Fraunces;
 }
 
 #intro {
@@ -21,6 +23,11 @@ body {
 
 #venue {
 	background: #2D7523;
+  height: 1050px;
+}
+
+#reception {
+	background: white;
   height: 1050px;
 }
 
@@ -68,6 +75,10 @@ label {
 	color: white;
 }
 
+.dark-font {
+	color: #a8324e;
+}
+
 .strong {
   font-weight: bolder;
 }
@@ -81,7 +92,7 @@ label {
   font-family: Fraunces;
   font-weight: lighter;
   color: white;
-  margin: 10px 10px; 
+  margin: 10px 10px;
 }
 
 .rsvp-title {
@@ -93,7 +104,7 @@ label {
   font-family: Fraunces;
   font-weight: lighter;
   color: #2D7523;
-  margin: 10px 10px; 
+  margin: 10px 10px;
 }
 
 .rsvp-links {
@@ -101,35 +112,35 @@ label {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 60px;
   font-family: Fraunces;
   color: white;
 }
 
 h2 {
   font-size: 40px;
-  font-family: Fraunces; 
+  font-family: Fraunces;
   font-weight: lighter;
   color: white;
 }
 
 .schedule-header {
   font-size: 32px;
-  font-family: Fraunces; 
+  font-family: Fraunces;
   font-weight: lighter;
   color: #2D7523;
 }
 
 .schedule-time {
-  font-size: 48px;
-  font-family: Fraunces; 
+  font-size: 30px;
+  font-family: Fraunces;
   font-weight: bolder;
   color: #2D7523;
 }
 
 .schedule-location {
   font-size: 30px;
-  font-family: Fraunces; 
+  font-family: Fraunces;
   font-weight: lighter;
   color: #2D7523;
 }
@@ -255,6 +266,7 @@ input.faq-toggle[type='checkbox'] + .faq-label + .faq-content {
 .star-icon {
   margin-top: 100px;
   width: 20px;
+  float: right;
 }
 
 .row {
@@ -403,3 +415,52 @@ input.faq-toggle[type='checkbox'] + .faq-label + .faq-content {
     margin-left: 25%;
   }
 }
+
+.dark-font {
+    color: #2c3e50;
+}
+
+.ceremony-card {
+    background: linear-gradient(135deg, #fff 0%, #2c3e50, 100%);
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    border-left: 4px solid #2D7523;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ceremony-title {
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.ceremony-description {
+    color: #2c3e50;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    font-family: Fraunces;
+
+
+}
+
+.ceremony-symbol {
+    font-size: 3rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.seven-vows,.four-aspects {
+    font-family: Fraunces;
+    color: #2c3e50;
+}
+
+@media only screen and (max-width: 600px) {
+    .ceremony-card { padding: 1.5rem; }
+    .ceremony-title { font-size: 1.5rem; }
+    .four-aspects { grid-template-columns: 1fr; }
+}
+
